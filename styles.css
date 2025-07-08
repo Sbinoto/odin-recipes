@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+.header{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin: 8px 0;
+}
+.recipes a{
+    background-color: burlywood;
+    display:block;
+    margin:8px;
+    text-decoration: none;
+    color: white;
+}
+.recipes{
+    background-color: brown;
+    text-align: center;
+    margin: 16px;
+    padding: 8px;
+}
+.recipes a:hover{
+    background-color: gray;
+}
+.home{
+    background-color: burlywood;
+    color: white;
+    border: none;
+    padding: 4px;
+    margin: 8px 0;
+}
+.home:hover{
+    cursor: pointer;
+}
+.pic{
+    background-color: brown;
+    color: white;
+    margin: 16px 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+.pic h1{
+    text-align: center;
+    background-color: burlywood;
+    margin:8px;
+}
+.pic h2{
+    text-align: center;
+    background-color: burlywood;
+    margin:8px;
+}
+.pic img{
+    width: 400px;
+    height:auto;
+    margin: auto;
+    display: block;
+    align-self: center;
+}
+.pic p{
+    text-align: center;
+}
